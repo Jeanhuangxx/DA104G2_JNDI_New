@@ -1,0 +1,290 @@
+body {
+	font-family: "Microsoft JhengHei UI";
+}
+
+.navbar-nav .nav-item .nav-link {
+	color: #FFFFFF;
+	font-size: 26px;
+	font-weight: bold;
+	font-family: "Microsoft JhengHei UI";
+}
+
+#topic_area {
+	margin-top: 25px;
+	height: auto;
+}
+
+.topic {
+	font-size: 40px;
+	font-weight: bold;
+	font-family: "Microsoft JhengHei UI";
+	letter-spacing: 0.07em;
+	margin-bottom: 5px;
+}
+
+.top_review_div {
+	margin-bottom: 5px;
+}
+
+#star, #add_fav {
+	width: 25px;
+	height: 25px;
+	margin-bottom: 7px;
+}
+
+.top_review_score {
+	font-size: 21px;
+	padding-left: 5px;
+}
+
+.top_place_span a {
+	padding-left: 30px;
+	font-size: 21px;
+	font-weight: bold;
+	font-family: "Microsoft JhengHei UI";
+	text-decoration: underline;
+	color: #575050;
+}
+
+.top_place_span:hover a {
+	color: rgb(37, 35, 35);
+}
+
+.top_add_fav {
+	font-size: 21px;
+	font-weight: bold;
+	font-family: "Microsoft JhengHei UI";
+	color: #000000;
+	cursor: pointer;
+}
+
+.top_add_fav:hover {
+	color: #575050;
+}
+
+.carousel-inner .picShow {
+	height: 600px;
+}
+
+.nav-pills .nav-link:hover {
+	border-bottom: 7px solid rgb(253, 198, 80);
+}
+
+ul.nav.nav-pills li.nav-item>a {
+	font-size: 30px;
+	color: rgb(5, 21, 167);
+	font-family: "Microsoft JhengHei UI";
+}
+
+#navbar-example2 {
+	padding-left: 0;
+	margin-bottom: 90px;
+}
+
+.highlights_cap, .date_cap, .loc_cap, .rev_cap {
+	font-weight: bold;
+	font-size: 40px;
+	font-family: "Microsoft JhengHei UI";
+}
+
+div.highlights_list ul {
+	list-style: none;
+}
+
+li.list1, li.list2, li.list3 {
+	font-size: 22px;
+	font-weight: 500;
+	font-family: "Microsoft JhengHei UI";
+}
+
+li.list1, li.list2 {
+	margin-bottom: 30px;
+}
+
+li.list3::before, li.list2::before, li.list1::before {
+	content: "\2022";
+	color: red;
+	margin-left: -15px;
+}
+
+.line1 {
+	border-bottom: 2px solid rgb(212, 212, 212);
+	width: 80%;
+	margin-bottom: 80px;
+	margin-top: 80px;
+}
+
+#date {
+	padding-top: 0px;
+}
+
+.dp_nav {
+	background-color: rgb(78, 104, 153);
+	margin-top: 50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.dp_nav .start_date, .dp_nav .end_date, .dp_nav .dives_amt, .dp_nav .room,
+	.dp_nav .price {
+	color: rgb(255, 255, 255);
+	font-family: "Microsoft JhengHei UI";
+	font-size: 28px;
+	font-weight: 500;
+}
+
+.dp_detail {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.dp_detail .start_date, .dp_detail .end_date, .dp_detail .dives_amt,
+	.dp_detail .room, .dp_detail .price {
+	color: #575050;
+	font-family: "Microsoft JhengHei UI";
+	font-size: 26px;
+	font-weight: 500;
+}
+
+.dp_detail .price {
+	font-weight: bolder;
+	font-size: 30px;
+	color: rgb(0, 0, 0);
+}
+
+.room_img {
+	height: 200px;
+	width: 200px;
+}
+
+.room_info {
+	text-align: start;
+}
+
+ul.room_info_lists {
+	list-style: none;
+}
+
+.room_info_lists {
+	padding-left: 0px;
+	font-family: "Microsoft JhengHei UI";
+}
+
+ul.room_info_lists li {
+	margin-bottom: 17px;
+	font-size: 20px;
+}
+
+input.submit {
+	margin-top: 20px;
+	background-color: rgb(236, 105, 105);
+	font-family: "Microsoft JhengHei UI";
+	font-size: 22px;
+	color: rgb(255, 255, 255);
+	border: none;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.line2 {
+	border-bottom: 1px solid rgb(212, 212, 212);
+	width: 70%;
+}
+
+#map {
+	height: 500px;
+	width: 100%;
+}
+
+.dp_nav2 {
+	background-color: rgb(78, 104, 153);
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.loc_cap {
+	margin-bottom: 50px;
+}
+
+.st_nm, .st_add_cap {
+	font-family: "Microsoft JhengHei UI";
+	font-size: 33px;
+	color: rgb(71, 70, 70);
+	font-weight: bold;
+}
+
+.st_loc, .st_add_dtl {
+	font-family: "Microsoft JhengHei UI";
+	font-size: 25px;
+	color: rgb(71, 70, 70);
+	padding-left: 40px;
+}
+
+.store_name {
+	margin-bottom: 60px;
+}
+
+#star_b {
+	width: 30px;
+	height: 30px;
+	margin-bottom: 23px;
+	margin-left: 15px;
+}
+
+.rev_score_b, .rev_ppl {
+	font-size: 28px;
+	font-family: "Microsoft JhengHei UI";
+}
+
+.mem_pic {
+	height: 60px;
+	width: 60px;
+}
+
+.mem_name, .rev_date {
+	font-size: 20px;
+	font-weight: 600;
+	font-family: "Microsoft JhengHei UI";
+}
+
+.rev_note {
+	font-size: 20px;
+	font-family: "Microsoft JhengHei UI";
+	color: rgb(71, 70, 70);
+}
+
+.line2a {
+	border-bottom: 1px solid rgb(212, 212, 212);
+	width: 70%;
+}
+
+.navScrolled {
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+}
+
+#fixedbutton {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	height: 50px;
+	width: 50px;
+}
+
+.reportReply {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.no_rev_note {
+	font-size: 30px;
+}
+
+
+/* 20200107¼W */
+.full{
+	color: red;
+}

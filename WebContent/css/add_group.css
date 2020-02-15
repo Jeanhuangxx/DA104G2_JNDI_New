@@ -1,0 +1,150 @@
+body {
+	font-family: "Microsoft JhengHei UI";
+	background: #E5EDF2;
+	margin-bottom: 0; 
+}
+
+#addGroupBg{
+	background-image :
+	url(https://images.unsplash.com/photo-1563566019199-854467dad6ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+	background-size : cover; 
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#addGroupBg2{
+	background-image:
+		url('../images/formimg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	margin: 150px auto;
+	padding: 192px;
+}
+
+.label {
+	margin-bottom: 0px;
+}
+
+.fixed-top {
+	background-color: #000;
+}
+
+.logo_img {
+	display: flex;
+	margin: auto;
+}
+
+form {
+	box-sizing: border-box;
+	display: block;
+	margin-top: 0em;
+	text-align: left;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+/* .container { */
+/* 	height: 1600px; */
+/* 	margin: 150px auto; */
+/* 	font-family: 微軟正黑體修正; */
+	
+/* } */
+
+hr {
+	margin-top: 0px;
+}
+
+.text {
+	text-align: right;
+}
+
+.form-control {
+	box-shadow: none;
+	border: transparent;
+	border-bottom: 1px dashed #929292;
+	background-color: transparent;
+}
+
+.GROUP_DES {
+	width: 100%;
+}
+
+.submit {
+	text-align: center;
+}
+
+.form-group {
+	margin-top: 10px;
+}
+
+/*     .start-end { */
+/*         box-shadow: none; */
+/*         border: transparent; */
+/*         border-bottom: 1px dashed #929292 !important; */
+/*         background-color: transparent; */
+/*     } */
+.custom-file {
+	width: 40%;
+	display: flex;
+}
+
+#blah {
+	width: 150px;
+	height: 150px;
+}
+
+/* span { */
+/* 	float: left; */
+/* } */
+
+#imgInp {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 78px;
+	right: 0;
+	opacity: 0;
+	height: 150px;
+	width: 150px
+}
+
+.upload {
+	text-align: right;
+}
+
+.fa-camera {
+	font-size: 30px;
+}
+
+#groupname {
+	margin-top: 50px;
+	margin-bottom: 0;
+}
+
+.col-8 {
+	margin-bottom: 0;
+}
+
+.col-4 {
+	margin-bottom: 0;
+}
+
+/* form { */
+/* 	margin-left: 220px; */
+/* 	width: 700px; */
+/* 	font-size: */
+/* } */
+
+#customRange1 {
+	margin: 10px;
+}
+
+#erro {
+	left: 880px;
+	top: 300px;
+}
+.countybody{
+	float:left;
+}

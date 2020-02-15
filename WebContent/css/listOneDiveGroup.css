@@ -1,0 +1,204 @@
+body {
+	font-family: 微軟正黑體;
+}
+
+.fixed-top {
+	background-color: #000;
+}
+
+.card-deck {
+	margin-top: 10px;
+}
+
+@media ( min-width : 576px) {
+	.card-deck .card {
+		margin-left: 9px;
+		margin-right: 9px;
+	}
+}
+
+.chose {
+	float: left;
+	text-align: center;
+	margin: auto auto;
+}
+
+.top-2 {
+	height: 300px;
+	/*margin-top:100px;*/
+}
+
+.chose img {
+	width: 128.87px;
+	height: 128.87px;
+	cursor: pointer;
+	transition: all 0.6s;
+}
+
+.chose img:hover {
+	opacity: 0.65;
+	cursor: pointer;
+	transform: scale(1.2);
+}
+
+.card img {
+	width: 348px;
+	height: 200px;
+	cursor: pointer;
+	transition: all 0.6s;
+}
+
+.card img:hover {
+	cursor: pointer;
+	transform: scale(1.2);
+}
+
+.fast {
+	margin: auto auto;
+	text-align: center;
+}
+
+.card_img {
+	overflow: hidden;
+}
+
+.people {
+	float: right;
+}
+
+/*浮動創建揪團*/
+#service {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	border: 2px #fff solid;
+	background-color: #339EFF;
+	line-height: 60px;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	bottom: 5%;
+	right: 3%;
+	margin: auto;
+	position: fixed;
+}
+/*浮動個人揪團*/
+#myGroup {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	border: 2px #fff solid;
+	background-color: #339EFF;
+	line-height: 60px;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	bottom: 5%;
+	left: 3%;
+	margin: auto;
+	position: fixed;
+}
+.fa-swimmer.fas {
+	font-size: 40px;
+	position: absolute;
+	top: 40%;
+	left: 28%;
+}
+
+.fa-search {
+	font-size: 20px;
+}
+
+#service {
+	text-align: center;
+}
+
+#service:hover {
+	cursor: pointer;
+}
+
+#button-addon2 {
+	float: left;
+	color: #fff;
+	text-align: center;
+	background-color: #fb9125;
+	-webkit-box-shadow: inset 0 1px 0 0 #fcad5c;
+	box-shadow: inset 0 1px 0 0 #fcad5c;
+	border: 1px solid #e08821;
+	cursor: pointer;
+	margin-left: -3px;
+	position: relative;
+	border-radius: 0 5px 5px 0;
+	background-image: -webkit-linear-gradient(top, #fb9125, #fa8721);
+}
+
+#search {
+	width: 40%;
+	border: 3px solid #fe9813;
+}
+
+.input-group {
+	width: 800px;
+}
+
+.card {
+	max-width: 350px;
+	max-height: 367px;
+	margin-top: 20px;
+}
+
+hr {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+.chose img {
+	border-radius: 50%;
+	box-shadow: 0 0 0 5px #F9E9BC;
+}
+
+.logo_img {
+	display: flex;
+	margin: auto;
+}
+
+.card-deck .card {
+	width: 500px;
+	flex: none;
+}
+
+/* 揪團簡介超過兩行自動隱藏 */
+.card-text {
+	text-overflow: -o-ellipsis-lastline;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	text-align: left;
+	height: 47.27px;
+}
+
+.input-group {
+	width: 650px;
+	left: 61%;
+	margin-right: 15px;
+	position: absolute;
+}
+
+#IDX-E10B-E-01 {
+	margin: 120px auto 20px auto;
+}
+
+.card-title {
+	color: #666;
+	font-weight: bold;
+}
+
+button:focus {
+	outline: none;
+}
+
+.total_group {
+	margin-top: 10px;
+}

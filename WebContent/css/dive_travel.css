@@ -1,0 +1,173 @@
+#tr_bg{
+  background-image: url('../images/trav_bg.jpg');
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: auto;
+  padding-right: 0px;
+}
+
+
+.caption_tr{
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: bold;
+  font-family: "Microsoft JhengHei UI";
+  letter-spacing: 0.02em;
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+
+#cp{
+	margin-bottom: 20px;
+}
+
+.search_bar{
+	margin-right: 10px;
+}
+
+#des_search{
+	width: 300px;
+	height: 55px;
+	background-image: url('../svg/location-point.svg');
+	background-repeat: no-repeat;
+	background-size: 25px;
+	padding-left: 40px;
+	background-position: 6px center;
+}
+
+#date_pick{
+	width: 200px;
+	height: 55px;
+	padding-left: 40px;
+	background-image: url('../svg/calendar.svg');
+	background-repeat: no-repeat;
+	background-size: 25px;
+	background-position: 6px center;
+}
+
+.btn_submit{
+	width: 100px;
+	height: 50px;
+	font-size: 23px;
+	font-family: "Microsoft JhengHei UI";
+	color: rgb(255, 255, 255);
+	background-color: rgb(241, 94, 68);
+	letter-spacing: 0.02em;
+}
+
+.btn_submit:hover{
+	background-color: rgb(236, 140, 122);
+	color: rgb(255, 255, 255);
+}
+
+#ch_pl{
+	height: auto;
+}
+
+.choose_place{
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  font-size: 40px;
+  font-family: "Microsoft JhengHei UI";
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+.planet{
+	margin-top: 0px;
+	margin-bottom: 12px;
+	width: 70px;
+	height: auto;
+}
+
+.liuchiu{
+	background-image: url('../images/liuchiu.png');
+}
+
+.liuchiu a, .g_island a, .kenting a, .lan_island a, .northerncoast a{
+	display: inline-block;
+}
+
+/* @media screen and (max-width: 767px){
+	div.abc{
+		padding: 0;
+	}
+} */
+/* teacher did */
+
+.liuchiu a, .g_island a, .kenting a, .lan_island a, .northerncoast a{
+	text-decoration: none;
+}
+
+.g_island{
+	background-image: url('../images/greenisland.jpg');
+}
+
+._pl_secD{
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+.kenting{
+	background-image: url('../images/kenting.jpg');
+}
+
+.lan_island{
+	background-image: url('../images/lanisland.jpg');
+}
+
+.northerncoast{
+	background-image: url('../images/northerncoast.jpg');
+}
+
+.liuchiu, .g_island, .kenting, .lan_island, .northerncoast{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+	/* margin-left: 25px; */
+	transition: all 0.7s ease;
+	cursor: pointer;
+}
+
+.liuchiu:hover, .g_island:hover, .kenting:hover, 
+.lan_island:hover, .northerncoast:hover{
+	transform: scale(1.05);
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.5);
+}
+
+.liu_cap, .g_island_cap, .ken_cap, .lan_island_cap, .northerncoast_cap{
+	font-family: "Microsoft JhengHei UI";
+	font-size: 40px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	letter-spacing: 0.2em;
+	line-height: 200px;
+	margin-bottom: 0px;
+	height:150px;
+}
+
+.show_info{
+	margin-bottom: 0px;
+	height: 70px;
+	font-size: 25px;
+	font-family: "Microsoft JhengHei UI";
+	text-decoration: underline;
+	color: rgb(255, 255, 255);
+	transition: all 0.5s ease;
+	opacity: 0;
+}
+
+.liuchiu:hover .show_info, .g_island:hover .show_info, 
+.kenting:hover .show_info, .lan_island:hover .show_info,
+.northerncoast:hover .show_info{
+	opacity: 1;	
+}
+
+.fixed-top{
+	background-color: #000;
+}
+

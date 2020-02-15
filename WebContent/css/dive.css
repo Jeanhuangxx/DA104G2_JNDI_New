@@ -1,0 +1,270 @@
+html, body{
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+#bg{
+  background-image: url('../images/diving.jpg');
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: auto;
+  padding-right: 0px;
+}
+
+#n_img{
+  width: 70px;
+  height: 75px;
+}
+
+#nav{
+  padding-right: 0px;
+}
+
+nav.-open{
+  background-color: rgba(0, 38, 142, 0.699);
+}
+
+.navbar{
+  background-color: rgba(255, 255, 255, 0.05);
+  transition: all 0.4s;
+}
+
+.navbar.nav_color{
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar-nav .nav-item .nav-link.nav_link_color{
+  color: rgba(0, 0, 0);
+}
+
+.navbar-nav .nav-item .nav-link.nav_link_color:hover{
+  color: rgba(104, 98, 98, 0.226);
+}
+
+#navbarNav .navbar-nav .nav-item{
+  margin-left: 23px;
+}
+
+.navbar-nav .nav-item .nav-link{
+  color: #FFFFFF;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: "Microsoft JhengHei UI";
+}
+
+.navbar-toggler {
+    border-color: rgba(179, 179, 179, 0.795);
+}
+
+.navbar-nav .nav-link:hover{
+  color: rgba(185, 179, 179, 1);
+}
+
+#btn_log{
+  width: 130px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: 20px;
+  font-size: 24px;
+  font-family: "Microsoft JhengHei UI";
+}
+
+.caption{
+  text-align: center;
+  padding-bottom: 220px;
+  padding-top: 220px;
+  color: #FFFFFF;
+  font-family: "Prompt", sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+  letter-spacing: 0.02em;
+  line-height: 46px;
+}
+
+
+#div_grp{
+  background-image: url("../images/bgimg.jpg");
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  padding: 0px;
+  height: auto;
+}
+
+#div_grp .row{
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+#btn_dive{
+  margin-top: 30px;
+}
+
+#div_cards{
+  margin-top: 55px;
+  padding:0px;
+}
+
+.card_col{
+  padding: 25px 7.5px 50px 7.5px;
+}
+
+.grouping{
+  height: auto;
+  padding-top: 50px;
+  /* text-align: center; */
+}
+
+.grp{
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  font-size: 35px;
+  font-family: "Microsoft JhengHei UI";
+  margin-bottom: 50px;
+}
+
+.line{
+  width: 150px;
+  border: 5px solid rgba(255, 217, 5, 0.918);
+}
+
+
+.card-img{
+  height: 221px;
+  width: auto;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card{
+  background: rgba(255, 255, 254, 0.137);
+  border-radius: 10px;
+  height: auto;
+  width: 300px;
+  margin: auto;
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .card {
+  width: auto;  
+  }
+}
+
+.card-body{
+  padding-right: 0px;
+}
+
+#addGrp{
+  height: auto;
+  width: auto;
+}
+
+#btn_addGrp1, #btn_addGrp2, #btn_addGrp3, #btn_addGrp4{
+  font-size: 20px;
+  font-family: "Microsoft JhengHei UI";
+  margin-top: 47px;
+  margin-left: 140px;
+  background: rgba(247, 231, 4, 0.801);
+  border-radius: 5px;
+}
+
+#btn_addGrp1:hover, #btn_addGrp2:hover, #btn_addGrp3:hover, #btn_addGrp4:hover{
+  background: rgb(255, 255, 255);
+}
+
+#crd-adj{
+  max-width: 570px;
+}
+
+.dest, .place, .time, .time1, .time2, .time_l{
+  color: #FFFFFF;
+  font-size: 24px;
+  font-family: "Microsoft JhengHei UI";
+  font-weight: bold;
+}
+
+#date{
+  padding-top: 20px;
+}
+
+footer{
+  padding-top: 20px;
+  background-color: rgb(231, 229, 229);
+}
+
+#footer .nav-item .nav-link{
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "Microsoft JhengHei UI";
+  color: black;
+}
+
+#footer .nav-link:hover{
+  color: rgb(82, 134, 238);
+}
+
+#icon{
+  padding-right: 32px;
+  padding-bottom: 30px;
+  padding-top: 15px;
+}
+
+#icon .nav-item{
+  margin-left: 40px;
+}
+
+#fb:hover{
+  fill: rgb(66,103,178)
+}
+
+#ig:hover{
+  fill: rgb(225,48,108);
+}
+
+#twit:hover{
+  fill: rgb(29,161,242);
+}
+
+#yt:hover{
+  fill: rgb(255,0,0);
+}
+
+.logo_img{
+  width: 100px;
+  height: 100px;
+}
+
+.logo{
+  padding-top: 20px;
+  margin: auto;
+  width: 100px;
+}
+
+#btn_out{
+  width: 70px;
+  height: 30px;	
+  font-family: "Microsoft JhengHei UI";
+  margin-right: 20px;
+  margin-left: 0px;
+  color: rgb(248, 194, 114);
+  margin-bottom: 10px;
+}
+
+.user_name{
+  margin-left: auto;
+  font-family: "Microsoft JhengHei UI";
+  margin-right: 20px;
+  font-size: 20px;
+  color: #a3b735;
+  font-weight: 700;
+}
+
+.user_name:hover{
+	color:rgb(240, 138, 138);
+}
+

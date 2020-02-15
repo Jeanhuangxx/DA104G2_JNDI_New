@@ -1,0 +1,66 @@
+body{
+    font-family: "Microsoft JhengHei UI" sans-serif;
+}
+
+.bg-navbar {
+  background-color: #392fa5;
+}
+
+
+.viewReview{
+    background-color: rgb(252, 160, 98);
+    color: #FFF;
+}
+
+.deleteFav{
+	background-color: rgb(218, 209, 209);
+}
+
+.memPw{
+	width: 200px;
+}
+
+.memDetailInfo{
+	font-size: 30px;
+}
+
+.memInfoDiv, .memConDiv{
+	border-radius: 10px 10px 10px 10px;
+	border: 2px solid #d4d4d4;
+	padding: 10px;
+	margin: 10px;
+	width: 1200px;
+}
+
+
+
+.memInsideInfo{
+	color: #838c96;
+}
+
+.pplInfo{
+	font-size: 22px;
+	font-weight: 800;
+}
+
+.form-control.memPw{
+	display: inline-block !important;
+	height: 30px !important;
+	margin-bottom: 11px;
+}
+
+img{
+	border-radius: 50%;
+}
+
+#pw, #ckpw{
+	height: 30px;
+}
+
+.changeImg{
+	cursor: pointer;
+}
+
+.change_psw{
+	background-color: #ffdeb8;
+}

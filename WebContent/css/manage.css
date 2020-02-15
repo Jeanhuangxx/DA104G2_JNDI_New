@@ -1,0 +1,71 @@
+﻿* {
+	font-family: "Microsoft JhengHei UI", serif;
+}
+
+.navbar-nav .nav-link:hover {
+	color: rgb(37, 163, 246) !important;
+}
+
+.main {
+	margin-top: 80px;
+	padding-top: 50px;
+	/* 撐開navbar & footer */
+	min-height: calc(100vh - ( 73.734px + 58px));
+	opacity: 0.8;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+/* 第一層選單 */
+ul.menu>li>a {
+	color: #0e0042;
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-size: 24px;
+}
+
+ul.menu>li>a:hover {
+	color: #FFFFFF;
+}
+
+ul.menu a {
+	color: #0900b3;
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-size: 22px;
+}
+
+ul.menu>li ul {
+	display: none;
+}
+
+@media ( max-width : 844px) {
+	.col-md-6.list {
+		margin-bottom: 50px;
+	}
+}
+
+ul.menu>li ul li:hover {
+	background-color: #FFFFFF !important;
+}
+
+ul.menu>li ul li:active {
+	background-color: rgba(207, 210, 255, 0.8) !important;
+}
+
+.list-group-item {
+	border: none !important;
+}
+
+/* for table start */
+tr {
+	text-align: center;
+}
+/* for table end */
+footer {
+	height: 50px;
+	padding-top: 3px;
+	font-size: 20px;
+}

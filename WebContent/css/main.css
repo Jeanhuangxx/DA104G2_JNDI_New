@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif+TC&display=swap");
+
+* {
+  font-family: "'Noto Serif TC', serif,'微軟正黑體'";
+}
+
+
+
+:root {
+  /* 按鈕自訂樣式&色彩 start here*/
+  --btn-main-bg-color: lightblue;
+  /*按鈕自訂背景色*/
+  --btn-pseudo-color: navy;
+  /*擬元素效果背景色*/
+  --btn-shadow: lightseagreen;
+  /*陰影色*/
+  /* 按鈕自訂樣式&色彩 end heree*/
+
+}
+
+
+
+/* 自訂按鈕樣式 for BS4 Start here*/
+.customer-btn-group {
+  justify-content: center;
+}
+
+.btn-customer {
+  color: #222;
+  background-color: var(--btn-main-bg-color);
+  border-color: var(--btn-main-bg-color);
+}
+
+.btn-customer:hover {
+  color: #fff;
+  background-color: var(--btn-pseudo-color);
+  border-color: #eee;
+}
+
+.btn-customer:focus,
+.btn-customer.focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.1);
+}
+
+.btn-customer.disabled,
+.btn-customer:disabled {
+  color: #222;
+  background-color: var(--btn-main-bg-color);
+  border-color: var(--btn-main-bg-color);
+}
+
+.btn-customer:not(:disabled):not(.disabled):active,
+.btn-customer:not(:disabled):not(.disabled).active,
+.show>.btn-customer.dropdown-toggle {
+  color: #fff;
+  background-color: var(--btn-pseudo-color);
+  border-color: #4e555b;
+}
+
+.btn-customer:not(:disabled):not(.disabled):active:focus,
+.btn-customer:not(:disabled):not(.disabled).active:focus,
+.show>.btn-cold.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem var(--btn-shadow);
+}
+
+/* 自訂按鈕樣式 for BS4 End here */
+
+.btn-outline-nav {
+  color: #6f6;
+  border-color: #6f6;
+  font-weight: bold;
+}
+
+.btn-outline-nav:hover {
+  color: #eee;
+  background-color: #6f6;
+  border-color: #6f6;
+}
+
+.btn-outline-nav:focus,
+.btn-outline-nav.focus {
+  box-shadow: 0 0 0 0.2rem rgba(250, 100, 250, 0.5);
+}
+
+.btn-outline-nav.disabled,
+.btn-outline-nav:disabled {
+  color: #6f6;
+  background-color: transparent;
+}
+
+.btn-outline-nav:not(:disabled):not(.disabled):active,
+.btn-outline-nav:not(:disabled):not(.disabled).active,
+.show>.btn-outline-nav.dropdown-toggle {
+  color: #fff;
+  background-color: #6f6;
+  border-color: #6f6;
+}
+
+.btn-outline-nav:not(:disabled):not(.disabled):active:focus,
+.btn-outline-nav:not(:disabled):not(.disabled).active:focus,
+.show>.btn-outline-nav.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(250, 100, 250, 0.5);
+}
+
+/*背景圖片校正 */
+.bg-cover {
+  background-position: center center;
+  background-size: cover;
+}
+
+/* 圖片取代文字 h1標題 */
+.navbar h1 {
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: url("../images/logo.svg");
+  background-size: cover;
+  background-position: center center;
+  width: 240px;
+}
+
+/* 圖片取代文字 */
+
+/* navbar 樣式 */
+.navbar-nav .nav-link {
+  transition: .5s;
+  font-size: 22px;
+  border-bottom: 3px solid transparent;
+}
+
+
+.navbar-nav .nav-link:hover {
+  color: orange !important;
+}
+
+
+/* navbar scroll effect */
+.navbar-header.hide {
+  
+  display: none;
+  transition: 5s;
+}
+.navbar-nav .nav-item a span{
+  font-weight: bold;
+}
+@media (min-width: 992px) and (max-width: 1160px){
+  .navbar-nav .nav-item a span{
+    display: none;
+  }
+}
+
+
+/* RWD的部分 */
+@media (min-width: 992px) {
+  .navbar-nav .nav-link:hover {
+    border-bottom: 3px solid #5af;
+    color: #5af !important;
+  }
+
+}
+
+/* 輪播效果 */
+
+.carousel-header {
+  margin-top: 55px;
+}
+
+.carousel .pic {
+  height: 400px;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, .5);
+  padding: 20px;
+}
+
+/* section icon */
+.title-icon {
+  margin-bottom: 30px;
+}
+
+.top-info p{
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+/* info start */
+
+/* info圖片高度 */
+.info img {
+  width: 280px;
+  height: 280px;
+  margin: 0 auto;
+  transition: .3s;
+}
+
+.info .card {
+  box-shadow: 1px 1px #ccc;
+  overflow: hidden;
+}
+
+.info img:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.info h5 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.info a {
+  text-decoration: none;
+  color: #5af;
+  font-weight: bold;
+}
+
+.info p {
+  text-align: justify;
+}
+
+/* 手機版型置中 */
+.info .card {
+  margin: 0 auto;
+}
+
+.info .row .menu-col {
+  margin-bottom: 20px;
+}
+
+.info .row .chef-col .card {
+  margin: 0 auto;
+}
+
+
+/* info區塊 end */
+/* section背景圖 */
+.info-section {
+  /* background-image: url("../images/furits.jpeg"); */
+  background-position: center center;
+  background-size: cover;
+}
+
+/* card info chef icon */
+.info h5 {
+  margin-top: 18px;
+}
+
+.info .card .chef-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  position: absolute;
+  border: 1px solid cyan;
+  top: 220px;
+  right: .5em;
+}
+
+/* 省略多餘字..刪節符號 */
+.info p {
+  height: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+
+
+/* section背景圖 */
+/* 線上客服 start */
+.customer-service {
+  width: 80px;
+  height: 80px;
+  background-image: url("../images/customerpic1.png");
+  position: fixed;
+  font-weight: 900;
+  border-radius: 40px;
+  right: 1em;
+  bottom: 1em;
+  cursor: pointer;
+  transition: .5s;
+  z-index: 1031;
+}
+
+.customer-service:hover {
+  background-image: url("../images/customer-pic2.png");
+}
+
+/* 線上客服991px以下隱藏 */
+@media (max-width: 991px) {
+  .customer-service {
+    display: none;
+  }
+}
+
+/* 線上客服 end */
+footer {
+  font-size: 26px;
+  padding: 15px 0;
+  font-weight: 400;
+  
+}

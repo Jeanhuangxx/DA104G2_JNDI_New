@@ -1,0 +1,23 @@
+body{
+	font-family: "Microsoft JhengHei UI";
+	background-color: #0b1021f0;
+}
+#map {
+    height: 80%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px
+}
+
+textarea {
+    width: 90%;
+    height: 300px;
+}
+
+.addDiveTitle{
+	font-size: 43px;
+}
+
+.county, .addDiveName{
+	width: 195px;
+}

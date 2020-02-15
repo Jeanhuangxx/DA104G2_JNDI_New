@@ -1,0 +1,10 @@
+.tour_report{
+    font-size: 30px;
+}
+
+.breakword{
+	max-width: 150px;
+    white-space: nowrap;    
+    text-overflow: ellipsis; 
+	overflow: hidden;
+}

@@ -1,0 +1,33 @@
+.trip_manage{
+  font-size: 30px;
+  font-family: "Microsoft JhengHei UI";
+}
+
+.all_trip, .listed_trip, .unlisted_trip{
+	font-family: "Microsoft JhengHei UI";
+}
+
+.all_trip_show, .table{
+	font-family: "Microsoft JhengHei UI";
+}
+
+.viewMore{
+  background-color: rgb(61, 91, 221);
+  color: white;
+}
+
+.btn_new{
+  background-color: rgb(255, 109, 109);
+  color: white;
+  font-family: "Microsoft JhengHei UI";
+}
+
+.pageFile{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.ttlResult{
+	color: rgb(48, 48, 48);
+	font-family: "Microsoft JhengHei UI";
+}

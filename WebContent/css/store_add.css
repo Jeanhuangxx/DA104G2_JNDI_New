@@ -1,0 +1,44 @@
+body{
+	font-family: "Microsoft JhengHei UI";
+}
+
+.add_trip_cap{
+    font-size: 30px;
+    font-family: "Microsoft JhengHei UI";
+    color: rgb(0, 0, 0);
+    margin-top: 16px;
+}
+
+.login-form{
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.form-group label{
+    color: rgb(39, 37, 37);
+    font-family: "Microsoft JhengHei UI";
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.custom-control.custom-radio .radio-inline{
+    color: rgb(24, 23, 23);
+    font-size: 18px;
+}
+
+.card-a{
+    width: 100%;
+}
+
+.errorMsgs{
+	font-size: 15px;
+	font-family: "Microsoft JhengHei UI";
+	color: rgb(255, 0, 0);
+}
+
+.xdsoft_datetimepicker .xdsoft_datepicker {
+    width: 300px;   /* width:  300px; */
+}
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box {
+    height: 151px;   /* height:  151px; */
+}
